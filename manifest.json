@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name" : "The Twitter Blocker",
+    "version" : "1.0.0",
+    "description" : "Just use this extension and keep away your twitter surfing habits",
+    "permissions" : ["storage" , "tabs"],
+    "background" : {
+        "service_worker" : "logic.js"
+    },
+    "action":{
+        "default_popup" : "popup.html"
+    }
+}
