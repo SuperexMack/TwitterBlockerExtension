@@ -33,6 +33,8 @@ body {
     color: red;
 }
 
+/* both have same property but ye did it for some reason */
+
 .righter{
     text-align: center;
     font-size: 15px;
